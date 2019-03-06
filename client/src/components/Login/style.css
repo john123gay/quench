@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Padauk|Quicksand");
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+}
+
+.left {
+  left: 0;
+  background-image: url("../../styles/images/tallplants.jpg");
+  border-top: 27px solid rgb(237, 237, 237);
+  border-bottom: 27px solid rgb(237, 237, 237);
+  border-left: 21px solid rgb(237, 237, 237);
+}
+
+.right {
+  right: 0;
+  background-color: white;
+  border-top: 27px solid rgb(237, 237, 237);
+  border-bottom: 27px solid rgb(237, 237, 237);
+  border-right: 21px solid rgb(237, 237, 237);
+}
+
+.centered {
+  text-align: center;
+}
+
+.logo {
+  font-size: 30px;
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type=password], input[type=email] {
+  display: inline-block;
+  border: 0.5px solid rgb(234, 233, 233);
+  outline: none;
+  width: 150px;
+  font-size: 20px;
+  margin-top: 50%;
+  margin-bottom: 12px;
+}
+
+input[type=password]::placeholder,
+ input[type=email]::placeholder { 
+  margin-right: 50px;
+}
+
+#login {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(143, 143, 143);
+  border: none;
+  width: 302px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+#signup {
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+
+#signup:hover, #login {
+  cursor: pointer;
+}
